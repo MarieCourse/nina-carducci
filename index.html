@@ -7,17 +7,26 @@
       content="Découvrez l'univers captivant de Nina Caarducci, photographe indépendante passionnée par l'art de figer les merveilleux moments de la vie. À travers son regard, son approche et sa technique, elle capture les émotions, la tendresse et la lumière qui illuminent vos instants précieux. Profitez de ses services de shooting photo en Île-de-France pour capturer vos moments les plus précieux et garder un souvenir impérissable. Bénéficiez également de ses compétences en retouche pour obtenir un résultat professionnel et un rendu optimal pour vos publications. Et partagez avec vos proches et clients les photos des moments partagés ensemble grâce à un album photo personnalisé. Plongez dans ses photographies immortelles et laissez-vous emporter par l'amour, le bonheur et la beauté qu'elles véhiculent." />
     <title>Photographe Nina Carducci</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet" /> -->
-    </head>
-    <body>
-      <header>
-        <div class="top-header">
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+        rel="stylesheet" /> -->
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+      ></script>
+    <script src="./assets/maugallery.js" ></script>
+    <script src="./assets/scripts.js" ></script>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
         <h1 class="name">Nina Carducci</h1>
         <nav class="nav">
           <ul>
@@ -27,14 +36,14 @@
             <li><a href="#contact">Contact</a></li>
             <li>
               <a
-              class="link-instagram"
-              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              target="_blank"
-              ><img
-              width="20"
-              height="20"
-              src="assets/images/instagram.png"
-              alt="Logo Instagram"
+                class="link-instagram"
+                href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+                target="_blank"
+                ><img
+                  width="20"
+                  height="20"
+                  src="assets/images/instagram.png"
+                  alt="Logo Instagram"
               /></a>
             </li>
           </ul>
@@ -42,81 +51,78 @@
       </div>
       <div id="header">
         <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"></button>
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
             <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
             <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-              width="1180px"
-              height="546px"
-              src="./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1920.jpg"
-              srcset="
-              ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1920.webp 1920w,
-              ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1180.webp 1180w,
-              ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1000.webp 1000w,
-              ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-650.webp   650w
-              "
+                width="1140px"
+                height="527px"
+                src="./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1920.jpg"
+                srcset="
+                  ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1920.webp 1920w,
+                  ./assets/images/slider/photographie-ryoji-iwata-nina-carducci-1140.webp 1140w,
+                  sets/images/slider/photographie-ryoji-iwata-nina-carducci-300.webp       300w
+                "
                 class="d-block w-100"
                 alt="Photographie homme en costume traversant la rue" />
-              </div>
-              <div class="carousel-item">
-                <img
-                width="1180px"
-                height="546px"
+            </div>
+            <div class="carousel-item">
+              <img
+                width="1140px"
+                height="527px"
                 src="./assets/images/slider/photographie-nicholas-green-nina-carducci-1920.jpg"
                 srcset="
-                ./assets/images/slider/photographie-nicholas-green-nina-carducci-1920.webp      1920w,
-                ./assets/images/slider/photographie-nicholas-green-nina-carducci-1180.webp 1180w,
-                ./assets/images/slider/photographie-nicholas-green-nina-carducci-1000.webp 1000w,
-                ./assets/images/slider/photographie-nicholas-green-nina-carducci-650.webp   650w
+                  ./assets/images/slider/photographie-nicholas-green-nina-carducci-1920.webp 1920w,
+                  ./assets/images/slider/photographie-nicholas-green-nina-carducci-1140.webp 1140w,
+                  /assets/images/slider/photographie-nicholas-green-nina-carducci-300.webp    300w
                 "
                 class="d-block w-100"
                 alt="Photographie des jeunes avec les bras en haut dans un concert" />
-              </div>
-              <div class="carousel-item">
-                <img
-                width="1180px"
-                height="546px"
+            </div>
+            <div class="carousel-item">
+              <img
+                width="1140px"
+                height="527px"
                 src="./assets/images/slider/photographie-edward-cisneros-nina-carducci-1920.jpg"
                 srcset="
-                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-1920.webp      1920w,
-                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-1180.webp 1180w,
-                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-1000.webp 1000w,
-                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-650.webp   650w
-                  "
-                  class="d-block w-100"
-                  alt="Photographie de couple de nouveaux maries qui s'embrassent" />
-                </div>
-              </div>
-              <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
+                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-1920.webp 1920w,
+                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-1140.webp 1140w,
+                  ./assets/images/slider/photographie-edward-cisneros-nina-carducci-300.webp   300w
+                "
+                class="d-block w-100"
+                alt="Photographie de couple de nouveaux maries qui s'embrassent" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
             class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -127,15 +133,18 @@
         </div>
       </div>
     </header>
-    
+
     <main>
       <div id="about">
         <div class="picture left">
           <img
-          width="200px"
-          height="200px"
-          src="./assets/images/portrait-photographe-nina-carducci-600.webp"
-          alt="Autoportrait de la photographe Nina Carducci" />
+            width="400px"
+            height="400px"
+            src="./assets/images/portrait-photographe-nina-carducci-838.webp 838w"
+            srcset="
+              ./assets/images/portrait-photographe-nina-carducci-419.webp 419w
+            "
+            alt="Autoportrait de la photographe Nina Carducci" />
         </div>
         <div id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
@@ -163,122 +172,130 @@
         <div class="container py-3">
           <div class="gallery" style="display: none">
             <img
-            data-gallery-tag="Concert"
-            class="gallery-item"
-            src="./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-1920.jpg"
-            srcset="
-            ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-300.webp   300w,
-            ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-1140.webp 1140w,
-            ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-1920.webp 1920w
-            "
-            sizes=""
-            loading="lazy"
-            alt="Photographie du concert d'Aaron Paul par Nina Carducci" />
-            <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-1920.jpg"
-            srcset="
-            ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-300.webp   300w,
-            ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-1140.webp 1140w,
-            ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-1920.webp 1920w
-            "
-            loading="lazy"
-            alt="Photographie d'entreprise portrait d'Ali Morshedlou par Nina Carducci" />
-            <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-              src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-1920.jpg"
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-1140.webp 1140w,
-              ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-1920.webp 1920w
+                ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/concerts/photographie-concert-aaron-paul-nina-carducci-1090.webp 1090w
+              "
+              loading="lazy"
+              alt="Photographie du concert d'Aaron Paul par Nina Carducci" />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-1090.jpg"
+              srcset="
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-ali-morshedlou-nina-carducci-1090.webp 1090w
+              "
+              loading="lazy"
+              alt="Photographie d'entreprise portrait d'Ali Morshedlou par Nina Carducci" />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-1090.jpg"
+              srcset="
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-jason-goodman-nina-carducci-1090.webp 1090w
               "
               loading="lazy"
               alt="Photographie d'entreprise portrait de Jason Goodman par Nina Carducci" />
-              <img
+            <img
               data-gallery-tag="Mariages"
               class="gallery-item"
-              src="./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-1920.jpg"
+              src="./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-1140.webp 1140w,
-              ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-1920.webp 1920w
+                ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/mariage/photographie-mariage-hannah-busing-nina-carducci-1090.webp 1090w
               "
               loading="lazy"
               alt="Photographie de mains de nouveaux mariées par Nina Carducci" />
-              <img
+            <img
               data-gallery-tag="Portrait"
               class="gallery-item"
-              src="./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-1920.jpg"
+              src="./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-1140.webp 1140w,
-              ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-1920.webp 1920w
+                ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/portraits/photographie-portrait-ade-tunji-nina-carducci-1090.webp 1090w
               "
               loading="lazy"
               alt="Photographie portrait d'Ade Tunji par Nina Carducci" />
-              <img
+            <img
               data-gallery-tag="Mariages"
               class="gallery-item"
-              src="./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-1920.jpg"
+              src="./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-1140.webp 1140w,
-              ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-1920.webp 1920w
+                ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/mariage/photographie-mariage-jakob-owens-nina-carducci-1090.webp 1090w
               "
               loading="lazy"
               alt="Photographie de nouveaux mariées souriants avec palmier derrière eux par Nina Carducci" />
-              <img
+            <img
               data-gallery-tag="Portrait"
               class="gallery-item"
-              src="./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-1920.jpg"
+              src="./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-1140.webp 1140w,
-              ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-1920.webp 1920w
+                ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/portraits/photographie-portrait-nino-van-prattenburg-nina-carducci-1090.webp 1090w
               "
               loading="lazy"
               alt="Photographie portrait de Nino Van Prattenburg par Nina Carducci" />
-              <img
+            <img
               data-gallery-tag="Concert"
               class="gallery-item"
-              src="./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-1920.jpg"
+              src="./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-1090.jpg"
               srcset="
-              ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-300.webp   300w,
-              ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-1140.webp 1140w,
-                ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-1920.webp 1920w
-                "
-                loading="lazy"
-                alt="Photographie du concert d'Austin Neill par Nina Carducci" />
-                <img
-                data-gallery-tag="Entreprises"
-                class="gallery-item"
-                src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-1920.jpg"
-                srcset="
-                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-300.webp   300w,
-                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-1140.webp 1140w,
-                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-1920.webp 1920w
-                "
-                loading="lazy"
-                alt="Photographie d'entreprise portrait de Mateus Campos Felipe par Nina Carducci" />
-              </div>
-            </div>
-            <div class="quote">
-              <figure>
-                <blockquote>
-                  <p class="quote__text">
-                    Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
-                    ou qu’un fait est traduit en photo, il cesse d’être un fait pour
-                    devenir une opinion. L’inexactitude n’existe pas en
-                    photographie. Toutes les photos sont exactes. Aucune d’elles
-                    n’est la vérité.
-                  </p>
-                </blockquote>
-                <figcaption class="quote__author">- Richard Avedon</figcaption>
-              </figure>
-            </div>
+                ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/concerts/photographie-concert-austin-neill-nina-carducci-1090.webp 1090w
+              "
+              loading="lazy"
+              alt="Photographie du concert d'Austin Neill par Nina Carducci" />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-1090.jpg"
+              srcset="
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-254.webp   254w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-608.webp   608w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-848.webp   848w,
+                ./assets/images/gallery/entreprise/photographie-entreprise-portrait-mateus-campos-felipe-nina-carducci-1090.webp 1090w
+              "
+              loading="lazy"
+              alt="Photographie d'entreprise portrait de Mateus Campos Felipe par Nina Carducci" />
           </div>
+        </div>
+        <div class="quote">
+          <figure>
+            <blockquote>
+              <p class="quote__text">
+                Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
+                ou qu’un fait est traduit en photo, il cesse d’être un fait pour
+                devenir une opinion. L’inexactitude n’existe pas en
+                photographie. Toutes les photos sont exactes. Aucune d’elles
+                n’est la vérité.
+              </p>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+          </figure>
+        </div>
+      </div>
       <aside>
         <div id="services">
           <h2 class="title">Mes services</h2>
@@ -355,29 +372,25 @@
               <input type="email" name="email" id="email" />
               <label for="message">Message</label>
               <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"></textarea>
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"></textarea>
               <input type="submit" value="Envoyer" />
             </form>
           </div>
           <div class="picture right">
             <img
-            width="600"
-            src="./assets/images/photographie-camera-nina-carducci-600.webp"
-            alt="Photographie de la camera de Nina Carducci" />
+              width="600"
+              height="600"
+              src="./assets/images/photographie-camera-nina-carducci-838.webp 838w"
+              srcset="
+                ./assets/images/photographie-camera-nina-carducci-419.webp 419w
+              "
+              alt="Photographie de la camera de Nina Carducci" />
           </div>
         </div>
       </div>
     </main>
   </body>
-  <script src="./assets/bootstrap/bootstrap.bundle.js"  defer></script>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous" defer></script>
-  <script src="./assets/maugallery.js" defer></script>
-  <script src="./assets/scripts.js" defer></script>
-  </html>
-  
+</html>
