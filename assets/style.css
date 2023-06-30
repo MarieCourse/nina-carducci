@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;800&display=swap");
 
 body {
   max-width: 1920px;
@@ -46,7 +46,7 @@ body {
 }
 
 .w-100 {
-	height: auto;
+  height: auto;
 }
 
 #about {
@@ -112,10 +112,12 @@ body {
   cursor: pointer;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link, .nav-pills .active-tag {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.nav-pills .active-tag {
   color: #000;
-  background-color: #beb45a;  
-	border-radius: 0;
+  background-color: #beb45a;
+  border-radius: 0;
 }
 
 .item-column {
@@ -161,7 +163,7 @@ body {
   line-height: 2rem;
 }
 .quote__author {
-  font-family: 'Spectral';
+  font-family: "Spectral";
   font-weight: 800;
   font-size: 1.5rem;
 }
@@ -192,7 +194,6 @@ body {
   background-color: white;
   max-width: 390px;
   width: 30%;
-  height: 337px;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -201,7 +202,7 @@ body {
 }
 
 .service__price p {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #contact {
@@ -325,7 +326,7 @@ input[type="submit"] {
   }
 
   #contact form {
-	width: 100%;
+    width: 100%;
   }
 
   #contact .picture.right {
